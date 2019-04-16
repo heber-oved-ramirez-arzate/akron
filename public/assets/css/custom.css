@@ -1,0 +1,244 @@
+
+/* your styles go here */
+
+/* header */
+header > nav >div:nth-child(2) > div >div:nth-child(3) a {
+    padding: .25rem 1.5rem;
+    color: #212529;
+    margin-bottom: 0em;
+}
+
+header > nav >div:nth-child(2) > div >div:nth-child(3) > div a:hover {
+    color: red;
+}
+
+header > nav >div:nth-child(2) > div >div:nth-child(3) > div  {
+    margin-top: 0 !important;
+}
+
+ul{
+    width: 100%;
+}
+
+header > nav{
+    flex-flow: nowrap !important;
+    position: relative !important;
+    display: block!important;
+    align-items: center !important;
+}
+
+
+/* --- Menu--- */
+#banner_akron div:nth-child(2) .form-control{
+    /* background-color: greenyellow !important; */
+    background-color: #fff;
+    background-clip: padding-box;
+    border-radius: .25rem;
+}
+
+#mt-19em {
+    margin-top: 11em;
+    /* background: greenyellow; */
+}
+
+
+.green{
+    color: greenyellow ;
+}
+
+#service  p , #products p , #industria p {
+    color: white;
+    /* background: greenyellow; */
+}
+
+/* Home */
+
+/* #produ-nuevo li > div{
+    border-left: solid 1px;
+    border-right: solid 1px;
+
+    border-color: blue;
+    margin-left: 1em;
+    margin-right: 1em;
+} */
+
+
+a[class="btn btn-danger"] {
+   
+    color: #fff !important;
+    border-radius: 0px;
+    
+  }
+
+a[class="btn btn-danger"]:hover {
+    color: #fff !important;
+    background: #dc3545 !important;
+}
+
+a[class="btn btn-success"] {
+    color: #fff !important;
+    border-radius: 0;
+    
+}
+a[class="btn btn-success"]:hover {
+    background: #28a745;
+    
+}
+
+.post_triangulo_top_left {
+    width: 40px;
+    height: 0;
+    border-top: 30px solid #0071c3;
+    border-right: 30px solid transparent;
+    z-index: 2;
+}
+
+/* --- Productos --- */
+
+.heder_blue{
+    width: 100%;
+    height:100%;
+    opacity: .9;
+}
+
+.heder_black{
+    width: 100%;
+    height:100%;
+    opacity: .5;
+    background-color: black;
+}
+.header-svg{
+    z-index: 10;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 3em;
+}
+
+.tooltip.in{
+    filter:alpha(opacity=90);
+    opacity:.9
+}
+
+section >div >div > div:nth-child(2) > div > div > div>div:nth-child(6) button {
+    /* background: green; */
+    border-radius: 2px;
+    height: 38px;
+}
+
+section >div >div > div:nth-child(2) > div > div > div>div:nth-child(6) .form-control {
+   padding-top: 0;
+   padding-bottom: 0;
+}
+
+.header-product{
+    position: relative;
+    height: 20em;
+    background-image: url('../img/empresa/banner_01.jpg');
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.custom-select {
+    border-radius: 0px;
+}
+
+ul .pagination{
+    /* margin-top: 1em; */
+}
+
+ul  .pagination ,li{
+   /* margin-left: 1em; */
+   /* margin-right: 1em; */
+}
+/* Products End */
+
+.header-gas{
+    position: relative;
+    height: 20em;
+    background-image: url('../img/gas-station/gas_station_2.jpg');
+    background-color: black;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+/* Gasolineras */
+#gas > div > div > div:nth-child(2) > div > section > div > div{
+    margin-bottom: 1.5em;
+}
+
+#gas > div > div > div:nth-child(2) > div > section {
+    border: solid 1px;
+    border-color: rgba(0, 168, 226, 255);
+
+}
+
+#gas section > div > div > div:nth-child(2) > div > div > .row > p span {
+    /* background: #28a745; */
+    color :rgb(0, 61, 167)
+}
+#gas section > div > div > div:nth-child(2) > div > div > .row > p bdi {
+    /* background: #28a745; */
+    color :rgb(98, 167, 15)
+}
+
+#gas section > div > div > div:nth-child(2) > div > div > .row > ul {
+    list-style-image: url('../img/gas-station/rigth.png');
+    /* background-image: url('../img/gas-station/rigth.png') no-repeat; */
+}
+@media (max-width: 1845px) {
+    .header-product{
+        height: 27em;
+    }
+}
+
+@media (max-width: 1366px) {
+    .header-product{
+        height: 20em;
+    }
+}
+
+@media (max-width: 1120px) {
+    .header-product{
+        height: 17em;
+    }
+}
+
+@media (max-width: 992px){
+    #mt-19em {
+        margin-top: 1em;
+    }
+    .header-product{
+        height: 15.4em;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-product{
+        height: 13em;
+    }
+}
+
+@media (max-width: 575px) {
+    .header-product{
+        height: 10.1em;
+    }
+}
+
+@media (max-width: 380px) {
+    .header-product{
+        height: 7.9em;
+    }
+}
+
+.fill_red{
+    fill: rgba(225, 37, 28, 255)
+}
+
+.fill_0c4479{
+    fill: rgba(10, 71, 128, 255)
+}
+
+.bg_0c4479{
+    background-color: rgba(10, 71, 128, 255)
+}
